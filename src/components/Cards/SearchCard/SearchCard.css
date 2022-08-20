@@ -1,0 +1,65 @@
+.SearchCard,
+.NewsCard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 620px;
+    min-width: 300px;
+    padding: 10px 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #52525b;
+}
+
+.SearchCard-Link,
+.NewsCard-Source>a {
+    font-size: small;
+    color: black;
+}
+
+.SearchCard a,
+.NewsCard a {
+    text-decoration: none;
+}
+
+.SearchCard-Title,
+.NewsCard-Title {
+    font-size: larger;
+    margin: 5px 0px;
+}
+
+.SearchCard-Title:hover,
+.NewsCard-Title:hover {
+    text-decoration: underline;
+}
+
+.SearchCard-Desc {
+    font-size: small;
+}
+
+.SearchCard-d>a>.SearchCard-Link,
+.NewsCard-d>.NewsCard-Source>a {
+    color: white;
+}
+
+.SearchCard-d>a>.SearchCard-Title,
+.NewsCard-d>a>.NewsCard-Title {
+    color: rgb(166, 231, 243);
+}
+
+.SearchCard-d>p {
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .SearchCard {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px 0px;
+    }
+
+    .NewsCard {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px 0px;
+    }
+}

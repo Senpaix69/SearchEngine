@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  padding: 1rem;
+  background-color: transparent;
+  width: 100%;
+  min-width: 370px;
+  height: 100%;
+}
+
+button:hover {
+  background-color: #52525b;
+  color: white;
+}
+
+.bg-d {
+  color: white;
+}
+
+.Routes {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+}

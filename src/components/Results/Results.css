@@ -1,0 +1,28 @@
+.Result {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 110px;
+}
+
+.Image {
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Videos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Video-Box {
+    padding: 2px;
+}
+
+@media screen and (max-width: 800px) {
+    .Result{
+        padding: 0px;
+    }
+}

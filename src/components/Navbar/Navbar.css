@@ -1,0 +1,88 @@
+.Nav--btn {
+    position: absolute;
+    margin-top: 12px;
+    right: 10px;
+    border-radius: 10px;
+    padding: 4px 6px;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+.Nav--btn1 {
+    position: absolute;
+    margin-top: 12px;
+    right: 100px;
+    border-radius: 10px;
+    padding: 4px 6px;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+.Nav--btn1>a {
+    text-decoration: none;
+    color: black;
+}
+
+.Nav--btn1>a:hover{
+    color: white;
+}
+
+.bg-d>a{
+    color: white;
+}
+
+.Nav--Title {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    margin-bottom: 20px;
+}
+
+.Navbar-S {
+    display: flex;
+}
+
+.NavS--Search {
+    width: 40%;
+    min-width: 350px;
+}
+
+.NavS--Title {
+    margin-top: 2px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .Navbar-S {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .NavS--Search {
+        width: 100%;
+        min-width: 350px;
+    }
+
+    .NavS--Title {
+        font-family: 'Poppins', sans-serif;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .Nav--btn {
+        right: 20px;
+        top: 16px;
+    }
+    .Nav--btn1 {
+        right: 110px;
+        top: 16px;
+    }
+}

@@ -1,0 +1,47 @@
+.ImageCard {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    border-bottom: 1px solid #52525b;
+}
+
+.ImageCard-Image {
+    width: 100%;
+}
+
+.ImageCard a {
+    text-decoration: none;
+}
+
+.ImageCard-Title {
+    font-size: small;
+}
+
+.ImageCard-d {
+    box-shadow: 0.5px 0.5px 0.5px 0.1px #3a3a3f;
+}
+
+.ImageCard-d p {
+    color: cornsilk;
+}
+
+.ImageCard a:hover {
+    text-decoration: underline;
+    color: cornsilk;
+}
+
+@media screen and (max-width: 800px) {
+    .Image {
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .ImageCard {
+        width: 50%;
+        max-width: 100%;
+    }
+}
